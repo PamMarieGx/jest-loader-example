@@ -1,0 +1,24 @@
+{
+  "name": "jest-loader-example",
+  "version": "1.0.0",
+  "description": "Example of --loader option in jest",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^27.0.6",
+    "testdouble": "^3.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node --loader testdouble --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PamMarieGx/jest-loader-example.git"
+  },
+  "author": "Pam-Marie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PamMarieGx/jest-loader-example/issues"
+  },
+  "homepage": "https://github.com/PamMarieGx/jest-loader-example#readme"
+}
